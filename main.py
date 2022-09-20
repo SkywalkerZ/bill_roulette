@@ -13,4 +13,4 @@ names = input("Give me everybody's name, separated by a ', ' (comma): \n").lower
 final_index = random.randint(0, len(names))
 final_person = names[final_index]
 
-print(f"{final_person.title()} is going to buy the meal today!")
+print(f"\n{final_person.title()} is going to buy the meal today!")
